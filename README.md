@@ -34,22 +34,27 @@ Si quieres probar este proyecto localmente, sigue estos pasos:
    cd nombre-de-tu-repo
 
 2. **Crear e instalar dependencias:**
-   # Si usas uv (recomendado)
-    uv pip install -r requirements.txt
-    # Si usas pip
-    pip install -r requirements.txt
+   Si usas uv (recomendado)
+   
+         uv pip install -r requirements.txt
+    Si usas pip
+   
+         pip install -r requirements.txt
 
-3. **Ejecutar migraciones:**
+4. **Ejecutar migraciones:**
+   ```bash
    python manage.py migrate
 
-4. **Lanzar servidor:**
+6. **Lanzar servidor:**
+   ```bash
    python manage.py runserver
 
 ## 📁Estructura del Proyecto
-  /appweb: Contiene la lógica de negocio, modelos, vistas y plantillas.
+  **/appweb**: Contiene la lógica de negocio, modelos, vistas y plantillas.
     
-  /proyecto_archivos_base: Configuración central del proyecto Django.
+  **/proyecto_archivos_base**: Configuración central del proyecto Django.
   
-  /templates/appweb: Interfaz de usuario (HTML/CSS).
+  **/templates/appweb**: Interfaz de usuario (HTML/CSS).
   
-  requirements.txt: Lista de dependencias del proyecto.
+  **requirements.txt**: Lista de dependencias del proyecto.
+
