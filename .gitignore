@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*$py.class
+
+# Virtual environments
+.venv
+.venv/
+env/
+venv/
+ENV/
+
+# Base de datos local (Contiene tus datos reales)
+*.sqlite3
+db.sqlite3
+# Archivos de configuración sensible
+.env
+__pycache__/
+*.py[cod]
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
